@@ -1,0 +1,30 @@
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore dependencies
+venv/
+node_modules/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore configuration files
+.env
+
+# Ignore temporary files
+*.tmp
+__pycache__/
+
+# Ignore personal files
+secrets.py
+
+# Ignore operating system files
+.DS_Store
+
+# in root directory
+/data/
+/*.png
+/*.pth
